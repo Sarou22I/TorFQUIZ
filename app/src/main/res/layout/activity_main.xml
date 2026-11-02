@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/bg_color">
+
+
+    <!-- את הרכיבים שלכם מוסיפים כאן, בין שתי התגיות -->
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="24sp"
+        android:text="Is Pikachu the first pokemon"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:id="@+id/btnTrue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="true"
+            android:textSize="24sp"
+            android:layout_weight="2"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnFalse"
+            android:text="false"
+            android:textSize="24sp"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
